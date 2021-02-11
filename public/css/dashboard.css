@@ -1,0 +1,66 @@
+.body{
+  
+}
+.containerr{
+    
+    height: 83vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /*padding:0px 70px;*/
+    border-top: 1px solid gray;
+}
+
+.table-div{
+ font-size: 1rem;
+ overflow: auto;
+ max-height: 68vh;
+ max-width: 100%;
+  
+}
+
+.result{
+    
+border-left: 1px solid gray;
+height: 83vh
+}
+footer{
+    border-top: 1px solid gray;
+    text-align: center;
+}
+aside nav ul li{
+    border: 1px solid black;
+    margin-bottom: 3px;
+    padding: 6px;
+    border-bottom: 3px solid black;
+}
+aside nav ul li:hover{
+    border-top: 3px solid black;
+    border-radius: 5px;
+    background:#F17EB8;
+    font-weight: 900;
+
+}
+ a,  a:hover,  a:visited{
+   
+  
+    text-decoration: none;
+    color: inherit;
+}
+aside nav ul a,aside nav ul  a:hover, aside nav ul a:visited{
+   
+  
+    text-decoration: none;
+    color: inherit;
+}
+
+.result > form{
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.stsh{
+    font-weight: bolder;
+    border-bottom: 2px solid gray;
+    font-size: 38px;
+}
